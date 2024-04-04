@@ -1,0 +1,28 @@
+Uri: https://cdn.utmify.com.br/scripts/utms/latest.js
+File Name: C:\Downloaded Web Sites\revalida\resgateindeniza.online\scripts\utms\latest-1.js
+Content Type: application/javascript
+
+Uri: https://resgateindeniza.online/chatbot/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2
+File Name: C:\Downloaded Web Sites\revalida\resgateindeniza.online\chatbot\fonts.gstatic.com\s\roboto\v30\KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2
+Content Type: font/woff2
+
+Uri: https://resgateindeniza.online/chatbot/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlvAA.woff
+File Name: C:\Downloaded Web Sites\revalida\resgateindeniza.online\chatbot\fonts.gstatic.com\s\roboto\v30\KFOlCnqEu92Fr1MmWUlvAA.woff
+Content Type: application/font-woff
+
+Uri: https://resgateindeniza.online/chatbot/fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5g.woff
+File Name: C:\Downloaded Web Sites\revalida\resgateindeniza.online\chatbot\fonts.gstatic.com\s\roboto\v30\KFOmCnqEu92Fr1Me5g.woff
+Content Type: application/font-woff
+
+Uri: https://resgateindeniza.online/chatbot/fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2
+File Name: C:\Downloaded Web Sites\revalida\resgateindeniza.online\chatbot\fonts.gstatic.com\s\roboto\v30\KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2
+Content Type: font/woff2
+
+Uri: https://resgateindeniza.online/chatbot/indeniza/2024/
+File Name: C:\Downloaded Web Sites\revalida\resgateindeniza.online\chatbot\indeniza\2024\index.htm
+Content Type: text/html
+
+Uri: https://resgateindeniza.online/chatbot/indeniza/2024/assets/logo.svg
+File Name: C:\Downloaded Web Sites\revalida\resgateindeniza.online\chatbot\indeniza\2024\assets\logo.svg
+Content Type: image/svg+xml
+
